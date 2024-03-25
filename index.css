@@ -1,0 +1,93 @@
+/* This file contains styling of 30day RAMADAN main website */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+    background: #b3e184;
+}
+
+.day30{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(217, 226, 236);
+    border-radius: 12px;
+    font-size: 1.6rem;
+}
+
+
+.day30:hover{
+    background-color: rgb(51, 215, 92);
+    cursor: pointer;
+    border: 2px solid rgb(7, 162, 40);
+}
+
+
+
+nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 25px;
+    background-color: #33eb5c;
+    border: 2px solid #07a228;
+    border-radius: 2px;
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+li{
+    margin: 0 30px;
+    padding: 2px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(215, 51, 51);
+    cursor: pointer;
+    color: wheat;
+}
+
+.details{
+    margin-top: 5px;
+    height: 30px;
+    padding: 5px;
+    font-size: 1.3rem;
+    border: 2px solid #294115;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.main-div{
+    margin: 5px;
+    border: 3px solid #294115;
+    border-radius: 7px;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #294115;
+}
+
+.contact{
+    text-align: center;
+}
+
+.linkd{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
